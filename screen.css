@@ -12,18 +12,24 @@ background-color: #E0EEEE;
 ul.accessibility
 { position: absolute; left:-20000px;}
 
+
+#logo
+{
+position: absolute;
+top: 0px;
+left: 25px;
+height: 160px;
+}
+
 #header
 { 
-position: relative; 
+position: relative;
 top: 0px;
 height: 160px;
-background-image: url('http://dl.dropbox.com/u/2291825/logo.jpg');
-background-repeat: no-repeat;
-background-position: 25px 15px;
 }
 
 h1
-{ 
+{
 font-size: 36px; 
 position: absolute;
 left: 135px;
@@ -33,15 +39,15 @@ top: 55px;
 #sub_header
 {
 text-align: right; 
-position: relative;
+position: absolute;
 right: 40px; 
-top: -90px;
+top: 25px;
 font-style: italic;
 font-size: 16px; 
 }
 
 #footer
-{position: fixed; top: 500px;}
+{position: fixed; bottom: 10px;}
 
 strong
 { font-style:italic; line-height: 200%; }
@@ -62,7 +68,7 @@ list-style-type: none;
 /*begin styling the navigation bar*/
 #nav_bar
 {position:fixed;
-top:163px;
+top:160px;
 left:25px;
 font-size:15px;
 width:225px;
@@ -136,7 +142,7 @@ color: white;
 
 
 /*begin styling the "content" div*/
-#content ul li {text-indent: 20px; }
+
 
 h2
 {
@@ -172,37 +178,41 @@ font-style: italic;
 background-color: #CCCCCC;
 }
 
-a.pf_entry
-{ 
-font-size: 14px;
-font-family: Arial; 
-font-weight: bold; 
-line-height: 300%;}
-
 img
 { 
 border: double;
 }
 
+a.pf_entry
+{ 
+text-decoration: none;
+font-size: 14px;
+font-family: Arial; 
+font-weight: bold; 
+line-height: 300%;}
 
-
-/*begin styling portofolio index page*/
-ul#portfolio_index li a 
+a.pf_description
 {
 text-decoration: none;
-margin: 23px 10px 10px 10px; 
-padding: 5px; 
-border-style: outset;
-border-color: #FFE4C4;
-background-color: #E0EEEE; 
-float: left;
-height: 230px;
-width: 260px;
+position: relative;
+top: -20px;
 }
 
-ul#portfolio_index li a:hover
+ul#portfolio_index li
+{
+border-top-style: solid; 
+border-width: thin;
+}
+
+ul#portfolio_index li a
+{
+display: block;
+}
+
+ul#portfolio_index li:hover
 {background-color: #B0E2FF;}
-/*end styling portofolio index page*/
+
+
 /* portfolio-specific CSS ends */
 
 
