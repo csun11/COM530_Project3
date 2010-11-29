@@ -228,7 +228,7 @@ body div#content ul#portfolio_index li ul
  border: double; 
  border-top: none;
  background-color: #E0EEEE;
- padding: 5px 0px 5px 15px;
+  padding: 5px 0px 5px 15px;
 }
 
 body div#content ul#portfolio_index li ul li
