@@ -1,0 +1,54 @@
+ul#nav, ul#links, ul.accessibility, #sub_header
+{display:none;}
+
+h1 
+{font-size: 22px; font-weight: bold; }
+
+h2, h3, h4
+{font-weight: bold; line-height: 150%;}
+
+h2
+{font-size: 20px;}
+
+h3
+{font-size: 18px; text-transform: uppercase; }
+
+h4
+{font-size: 16px;}
+
+p#breadcrumbs
+{font-size: 16px; text-align: left; line-height: 200%;}
+
+a.pf_entry
+{font-size: 16px; font-weight: bold; line-height: 200%;}
+
+strong
+{ font-style:italic; line-height: 200%; }
+
+#content div ul li
+{
+text-indent: 30px;
+}
+
+#footer
+{text-align: right; line-height: 300%;}
+
+img
+{ 
+border: double;
+}
+
+/* resume-specific CSS starts */
+p#name
+{
+font-size: 22px; text-align: center; line-height: 200%;
+}
+
+address
+{
+font-size: 19px; text-align: center; line-height: 200%;
+}
+
+a
+{text-decoration: none; }
+/* resume-specific CSS ends */

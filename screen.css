@@ -1,0 +1,227 @@
+html { background-color: #CCCCCC; } 
+
+#content
+{
+border-style:double; 
+border-width:medium;
+margin: 0px 40px 0px 230px; 
+padding: 20px 20px 20px 60px; 
+background-color: #E0EEEE; 
+}
+
+ul.accessibility
+{ position: absolute; left:-20000px;}
+
+#header
+{ 
+position: relative; 
+top: 0px;
+height: 160px;
+background-image: url('http://dl.dropbox.com/u/2291825/logo.jpg');
+background-repeat: no-repeat;
+background-position: 25px 15px;
+}
+
+h1
+{ 
+font-size: 36px; 
+position: absolute;
+left: 135px;
+top: 55px;
+}
+
+#sub_header
+{
+text-align: right; 
+position: relative;
+right: 40px; 
+top: -90px;
+font-style: italic;
+font-size: 16px; 
+}
+
+#footer
+{position: fixed; top: 500px;}
+
+strong
+{ font-style:italic; line-height: 200%; }
+
+p
+{
+text-indent:20px;
+}
+
+ul li 
+{ 
+list-style-type: none;
+}
+
+
+
+
+/*begin styling the navigation bar*/
+#nav_bar
+{position:fixed;
+top:163px;
+left:25px;
+font-size:15px;
+width:225px;
+}
+
+
+#nav_bar li#nav_top
+{
+height: 30px;
+background-color:#9999FF;
+font-weight:bold;
+font-size:22px;
+}
+
+
+ul#nav 
+{
+border-style:solid; 
+border-width:thin;
+padding:0px 2px;
+text-align:right;
+background-color:#CCCCCC;
+font-weight: bold;
+}
+
+ul#nav li
+{
+border-style:solid; 
+border-width:thin;
+}
+
+ul#links
+{
+border-style:solid; 
+border-width:thin;
+padding:0px 2px;
+text-align:right;
+background-color:#CCCCFF;
+}
+
+ul#links li
+{
+border-style:solid; 
+border-width:thin;
+height: 30px;
+font-size: 22px;
+font-weight:bold;
+}
+
+ul#nav a, ul#links a
+{ 
+display: block;
+color: #000066;
+text-decoration: none;
+font-weight: normal; 
+}
+
+ul#nav a:hover {
+background-color: #9999FF;
+color: white;
+}
+
+ul#links a:hover {
+background-color: #9999FF;
+color: white;
+}
+/*end styling the navigation bar*/
+
+
+
+
+
+/*begin styling the "content" div*/
+#content ul li {text-indent: 20px; }
+
+h2
+{
+font-size: 20px;
+}
+
+h3
+{ text-transform: uppercase; 
+  line-height:150%;
+  font-size: 16px;
+}
+
+h4
+{
+font-size:16px;
+line-height:150%
+}
+
+h2, h3, h4
+{
+font-weight: bold;
+}
+/*end styling the "content" div*/
+
+
+
+
+/* portfolio-specific CSS begins */
+p#breadcrumbs
+{
+line-height: 200%;
+font-style: italic;
+background-color: #CCCCCC;
+}
+
+a.pf_entry
+{ 
+font-size: 14px;
+font-family: Arial; 
+font-weight: bold; 
+line-height: 300%;}
+
+img
+{ 
+border: double;
+}
+
+
+
+/*begin styling portofolio index page*/
+ul#portfolio_index li a 
+{
+text-decoration: none;
+margin: 23px 10px 10px 10px; 
+padding: 5px; 
+border-style: outset;
+border-color: #FFE4C4;
+background-color: #E0EEEE; 
+float: left;
+height: 230px;
+width: 260px;
+}
+
+ul#portfolio_index li a:hover
+{background-color: #B0E2FF;}
+/*end styling portofolio index page*/
+/* portfolio-specific CSS ends */
+
+
+
+
+
+/* resume-specific CSS begins */
+p#name
+{
+font-size: 22px; text-align: center; line-height: 200%;
+}
+
+address
+{
+font-size: 18px; text-align: center; line-height: 200%;
+}
+
+h3.hasjs:hover 
+{
+color: #9999FF; cursor: pointer; background-color:#CCCCCC;
+}
+/* resume-specific CSS ends */
