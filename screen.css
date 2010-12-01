@@ -1,53 +1,75 @@
-html { background-color: #CCCCCC; } 
+html { 
+	background: url("http://dl.dropbox.com/u/2291825/COM530_images/bg.png") repeat-y scroll center top #F3F3F3;
+	color: #444444;
+    font-family: 'Trebuchet MS',Arial,sans-serif;
+} 
 
-#content
-{
-border-style:double; 
-border-width:medium;
-margin: 0px 40px 0px 230px; 
-padding: 20px 20px 20px 60px; 
-background-color: #E0EEEE; 
+#page {
+	background: url("http://dl.dropbox.com/u/2291825/COM530_images/header.png") no-repeat scroll center top transparent;
+	margin: 0 auto;
+	width: 999px;
 }
 
 ul.accessibility
 { position: absolute; left:-20000px;}
 
 
-#logo
-{
-position: absolute;
-top: 0px;
-left: 10px;
-height: 160px;
-}
-
 #header
 { 
-position: relative;
-top: 0px;
-height: 160px;
+    color: #221111;
+    font-family: 'Eras Medium ITC','Arial',sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    height: 150px;
+    padding-left: 40px;
+    padding-top: 60px;
+    text-align: left;
 }
 
-h1
-{
-font-size: 36px; 
-position: absolute;
-left: 135px;
-top: 55px;
+#header a {
+    color: #223333;
+    padding: 10px;
+    text-decoration: none;
+}
+#header a:hover {
+    color: brown;
+}
+
+#description {
+    color: #666666;
+    font-family: Candara,'Trebuchet MS';
+    font-size: 24px;
+    font-weight: normal;
+    padding: 3px 3px 3px 20px;
 }
 
 #sub_header
 {
-text-align: right; 
-position: absolute;
-right: 40px; 
-top: 25px;
-font-style: italic;
-font-size: 16px; 
+	text-align: right; 
+	position: absolute;
+	right: 150px; 
+	top: 110px;
+	font-style: italic;
+	font-size: 14px; 
 }
 
-#footer
-{position: fixed; bottom: 10px;}
+#content {
+    margin-left: 255px;
+    padding: 15px 15px 30px 15px;
+}
+
+#footer {
+    background: url("http://dl.dropbox.com/u/2291825/COM530_images/footer.png") no-repeat scroll center top #F4F4F4;
+    clear: both;
+    font-size: 14px;
+    height: 140px;
+    text-align: center;
+}
+
+#footer p{
+	padding: 20px;
+	margin: 0px auto;
+}
 
 strong
 { font-style:italic; line-height: 200%; }
@@ -66,12 +88,12 @@ list-style-type: none;
 
 
 /*begin styling the navigation bar*/
-#nav_bar
-{position:fixed;
-top:160px;
-left:10px;
-font-size:15px;
-width:225px;
+#nav_bar {
+	position:fixed;
+	top:160px;
+	left:10px;
+	width:250px;
+	background-color: #CCCCCC;
 }
 
 
