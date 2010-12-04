@@ -22,23 +22,16 @@
 	
 	<script type="text/javascript" src="http://use.typekit.com/rtk6jir.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+			
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
 	
 	<title>Online Portfolio Page of Cong Sun</title>
 
-		<script type="text/javascript"		src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-			<script type="text/javascript">
-			$(document).ready(function()
-				{ $('ul#portfolio_index li').addClass('hasjs');
-				$('ul#portfolio_index li').hover(
-					function()
-					{$(this).removeClass('hasjs');},
-					function() 
-					{$(this).addClass('hasjs') ;});
-			});
-			</script>
-
   </head>
+
   
+
   <body>
 		<ul class="accessibility">
 			<li><a href="#nav">Go to navigation bar</a></li>
@@ -49,7 +42,8 @@
 	<div id="page">
 		
 		<div id="header">
-			<h1><a href="http://suncongs.info">Sun, Cong's Info</a></h1>
+			<h1><a href="home.htm">Sun, Cong's Info</a></h1>
+			<p id="description">Technical communicator with solid engineering background</p>
 		</div>
 
 		<div id="sub_header">
@@ -62,53 +56,55 @@
 			<ul id="portfolio_index">
 
 				<li id="doc_design">
-					<a class="pf_entry" href="portfolio_1_doc_design.htm">Document Design </a><br/>
-					<a class="pf_description" href="portfolio_1_doc_design.htm">Afterwards, documents no longer look boring. <br/>
-				Or, much more boring--in the extent that <br/>
-				they become amazing.
-					</a> 	
-					<img alt="Document Design" src="http://dl.dropbox.com/u/2291825/IPRO_poster.JPG"/> 
-					<ul>
+					<p class="pf_area">Document Design </p>
+					<p class="pf_quote">Afterwards, documents no longer look boring. <br/>
+										Or, much more boring--in the extent that <br/>
+										they become amazing.
+					</p>
+					<p><a href="portfolio_1_doc_design.htm"> &raquo; My work samples</a></p>
+					<img class="pf_description" alt="Document Design" src="http://dl.dropbox.com/u/2291825/IPRO_poster.JPG"/>
+					<ul  class="pf_description" >
 						<li>planning the design and development of documents </li>
 						<li>evaluating the document for a variety of applications, including manuals, instructional design, brochures, newsletters, graphics, and tables</li>
 					</ul>
 				</li>
 		
 				<li id="info_structure">
-					<a class="pf_entry" href="portfolio_2_info_structure.htm">Information Structure</a>  <br />
-					<a class="pf_description" href="portfolio_2_info_structure.htm">Your info piles high up like Sears Tower. <br />
+					<a class="pf_area" href="portfolio_2_info_structure.htm">Information Structure</a>  <br />
+					<p><a class="pf_quote" href="portfolio_2_info_structure.htm">Your info piles high up like Sears Tower. <br />
 					I make sure each brick can be found <br />
 					in 1/3600 hour. 
-					</a> 
-					<img alt="Information Structure" src="http://dl.dropbox.com/u/2291825/Info_structure.JPG"/> 
-					<ul>
+					</a></p>
+					<img class="pf_description" alt="Information Structure" src="http://dl.dropbox.com/u/2291825/Info_structure.JPG"/> 
+					<ul class="pf_description">
 						<li>indexing either print or electronic documents</li>
 						<li>storing, maintaining and accessing information to facilitate communication</li>
 					</ul>
 				</li>
 		
 				<li id="project_mgmt">
-					<a class="pf_entry" href="portfolio_4_project_mgmt.htm">Project Management</a>  <br />
-					<a class="pf_description" href="portfolio_4_project_mgmt.htm">Finish up, or screw up-- <br />
+					<a class="pf_area" href="portfolio_4_project_mgmt.htm">Project Management</a>  <br />
+					<p><a class="pf_quote" href="portfolio_4_project_mgmt.htm">Finish up, or screw up-- <br />
 					I don't think that is the question:<br />
 					see the schedules written down!
-					</a> 
-					<img alt="Project Management" src="http://dl.dropbox.com/u/2291825/project_mgmt.JPG"/> 
-					<ul>
+					</a> </p>
+					<img class="pf_description" alt="Project Management" src="http://dl.dropbox.com/u/2291825/project_mgmt.JPG"/> 
+					<ul class="pf_description">
 						<li>planning, organizing, securing and managing resources</li>
 						<li>ensuring the successful completion of engineering project goals and objectives</li>
 					</ul>
 				</li>
 
 				<li id="usability">
-					<a class="pf_entry" href="portfolio_5_usability.htm">Usability Testing and Evaluation</a> <br />
-					<a class="pf_description" href="portfolio_5_usability.htm">Don't let users complain <br />
+					<a class="pf_area" href="portfolio_5_usability.htm">Usability Testing and Evaluation</a> <br />
+					<p><a class="pf_quote" href="portfolio_5_usability.htm">Don't let users complain <br />
 					that your product is obstreperous. <br />
 					I'll help explain <br />
-					a way to make its sales prosperous.
+					how to make its sales prosperous.
 					</a> 
-					<img alt="Usability Testing and Evaluation" src="http://dl.dropbox.com/u/2291825/usability_evaluation.JPG"/> 
-					<ul>
+					</p>
+					<img class="pf_description" alt="Usability Testing and Evaluation" src="http://dl.dropbox.com/u/2291825/usability_evaluation.JPG"/> 
+					<ul class="pf_description">
 						<li>planning and conducting tests that measure the efficiency and effectiveness of a design or product</li>
 						<li>generating usability testing reports and providing recommendations for product design</li>
 					</ul>
@@ -118,13 +114,10 @@
 
 	</div>
 	
-	<div id="nav_bar">
-			<ul id="nav">
-				<li id="nav_top">My Portfolio</li>
-			</ul>
-			<ul id="links">
+	<div id="nav">
+			<ul>
 				<li><a href="home.htm">Homepage</a></li>
-				<li><a href="resume.htm">My resume</a></li>
+				<li><a href="resume.htm">Resume</a></li>
 			</ul>
 	</div>
 
