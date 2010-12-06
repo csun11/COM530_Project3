@@ -30,6 +30,7 @@ ul.accessibility
 }
 #header a:hover {
     color: brown;
+	border: none;
 }
 
 #description {
@@ -98,10 +99,6 @@ font-size: 18px;
 color: #221111;
 }
 
-div#nav li#current_page {
-	background-color: #CCCCCC;
-}
-
 div#nav a
 { 
 display: block;
@@ -114,6 +111,28 @@ background-color: brown;
 color: white;
 }
 
+#vertical_bar {
+	position: fixed;
+	top: 200px;
+	right: 110px;
+	}
+
+#vertical_bar li {
+	line-height: 200%;
+	display: block;
+	border-bottom: dotted;
+	border-width: thin;
+	border-color: #CCCCCC;
+	}
+
+#vertical_bar a {
+	display: block;
+	}
+
+#vertical_bar a:hover {
+	font-weight: bold;
+	}
+
 /*end styling the navigation bar*/
 
 
@@ -122,15 +141,18 @@ color: white;
 /*styling the normal text and global elements*/
 
 strong
-{ font-style:italic; line-height: 200%; }
+{ font-style:italic; line-height: 200%; font-weight: bold; }
 
-a{
+a {
 	text-decoration: none;
 	color: brown;
 }
 
-a:hover{
-	text-decoration: underline;
+
+#content a:hover{
+	text-decoration: none;
+	border-bottom: dotted;
+	border-width: thin;
 }
 
 p.taller_lines {
@@ -142,6 +164,11 @@ ul li
 list-style-type: none;
 }
 
+ul.has_bullet li {
+	list-style-type: disc;
+	margin-left: 50px;
+	}
+
 h2
 {
 font-size: 20px;
@@ -149,6 +176,7 @@ font-size: 20px;
 
 h3
 { text-transform: uppercase; 
+  text-indent: -10px;
   line-height:150%;
   font-size: 16px;
 }
@@ -162,7 +190,13 @@ line-height:150%
 h2, h3, h4
 {
 font-weight: bold;
+color: #663300; 
 }
+
+h2 a, h3 a, h4 a {
+	color: #663300;
+	}
+
 
 /*end styling the normal text and global elements*/
 
@@ -176,17 +210,6 @@ border: inset;
 border-color: #CCCCCC;
 }
 
-a.pf_entry
-{ 
-text-decoration: none;
-font-size: 18px;
-font-family: Arial; 
-font-weight: bold; 
-line-height: 150%;
-border-top-style: solid; 
-display: block;
-border-color: #CCCCCC;}
-
 .pf_area {
 	font-size: 18px;
 	font-weight: bold;
@@ -198,7 +221,6 @@ border-top-style: solid;
 border-width: thin;
 border-color: #CCCCCC;
 }
-
 
 ul#portfolio_index img
 {
@@ -219,9 +241,23 @@ ul#portfolio_index li ul li {
 	}
 
 
+ul#portfolio_index li.hasjs p:hover {
+	cursor: pointer;}
+
 ul#portfolio_index li.hasjs .pf_description
 {display: none;
 }
+
+.pf_entry
+{ 
+text-decoration: none;
+font-size: 18px;
+font-family: Arial; 
+font-weight: bold; 
+line-height: 150%;
+border-top-style: solid; 
+display: block;
+border-color: #CCCCCC;}
 
 /* portfolio-specific CSS ends */
 
@@ -244,4 +280,13 @@ h3.hasjs:hover
 {
 color: #9999FF; cursor: pointer; background-color:#CCCCCC;
 }
+
+.resume ul li {
+	list-style-type: square;
+	}
+
+.resume ul li.no_bullet {
+	list-style-type: none;
+	}
+
 /* resume-specific CSS ends */
