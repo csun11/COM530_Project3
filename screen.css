@@ -27,7 +27,7 @@ ul.accessibility
     text-decoration: none;
 }
 #header a:hover {
-    color: brown;
+    color: #A52A2A;
 	border: none;
 }
 
@@ -116,7 +116,7 @@ font-weight: normal;
 }
 
 div#nav a:hover {
-background-color: brown;
+background-color: #A52A2A;
 color: white;
 }
 
@@ -157,7 +157,7 @@ strong
 
 a {
 	text-decoration: none;
-	color: brown;
+	color: #A52A2A;
 }
 
 
