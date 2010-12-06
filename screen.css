@@ -14,11 +14,11 @@ ul.accessibility
 { 
     color: #221111;
     font-family: 'Eras Medium ITC','Arial',sans-serif;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: normal;
-    height: 120px;
+    height: 90px;
     padding-left: 10px;
-    padding-top: 60px;
+    padding-top: 30px;
     text-align: left;
 	background: url("http://dl.dropbox.com/u/2291825/COM530_images/header.png") no-repeat bottom;
 }
@@ -36,7 +36,7 @@ ul.accessibility
 #description {
     color: #666666;
     font-family: Candara,'Trebuchet MS';
-    font-size: 24px;
+    font-size: 20px;
     padding: 3px 3px 3px 20px;
 }
 
@@ -59,7 +59,8 @@ p#breadcrumbs
 {
 line-height: 200%;
 font-style: italic;
-border: ridge;
+border-bottom: dashed;
+border-width: thin;
 background-color: #F3F3F3;
 border-color: #CCCCCC;
 position: relative;
@@ -79,12 +80,17 @@ bottom: 10px;
 	margin: 0px auto;
 }
 
+#footer #badges li img {
+	height: 20px;
+	width: 55px;
+	}
+
 
 
 /*begin styling the navigation bar*/
 div#nav {
 	position: absolute;
-	top: 150px;
+	top: 90px;
 	right: 140px;
 }
 
@@ -113,8 +119,8 @@ color: white;
 
 #vertical_bar {
 	position: fixed;
-	top: 200px;
-	right: 110px;
+	top: 150px;
+	left: 900px;
 	}
 
 #vertical_bar li {
@@ -141,7 +147,10 @@ color: white;
 /*styling the normal text and global elements*/
 
 strong
-{ font-style:italic; line-height: 200%; font-weight: bold; }
+{	font-style:italic; 
+	line-height: 200%; 
+	font-weight: bold;
+	font-size: 14px;}
 
 a {
 	text-decoration: none;
@@ -176,10 +185,12 @@ font-size: 20px;
 
 h3
 { text-transform: uppercase; 
-  text-indent: -10px;
   line-height:150%;
   font-size: 16px;
-}
+  border-bottom: solid;
+  border-width: thin;
+  border-color: #CCCCCC;
+  }
 
 h4
 {
@@ -190,11 +201,11 @@ line-height:150%
 h2, h3, h4
 {
 font-weight: bold;
-color: #663300; 
+color: #00008B; 
 }
 
 h2 a, h3 a, h4 a {
-	color: #663300;
+	color: #00008B;
 	}
 
 
@@ -215,12 +226,23 @@ border-color: #CCCCCC;
 	font-weight: bold;
 	}
 
+.pf_quote {
+	font-style: italic;
+	}
+
 ul#portfolio_index li
 {
 border-top-style: solid; 
 border-width: thin;
 border-color: #CCCCCC;
+margin: 10px 0px;
 }
+
+ul#portfolio_index li a {
+	font-weight: bold;
+	line-height: 150%;
+	}
+
 
 ul#portfolio_index img
 {
@@ -259,13 +281,22 @@ border-top-style: solid;
 display: block;
 border-color: #CCCCCC;}
 
+ul#portfolio_index li.hasjs p.pf_quote:hover
+{
+color: white; 
+cursor: pointer; 
+background: url("http://dl.dropbox.com/u/2291825/COM530_images/expand.png") no-repeat;
+background-position: right center;
+background-color: #F3F3F3;
+}
+
 /* portfolio-specific CSS ends */
 
 
 
 
 
-/* resume-specific CSS begins */
+/* resume-related CSS begins */
 p#name
 {
 font-size: 22px; text-align: center; line-height: 200%;
@@ -276,9 +307,16 @@ address
 font-size: 18px; text-align: center; line-height: 200%;
 }
 
-h3.hasjs:hover 
+#content div {
+	margin: 10px;
+	}
+
+h3.hasjs:hover
 {
-color: #9999FF; cursor: pointer; background-color:#CCCCCC;
+cursor: pointer; 
+background: url("http://dl.dropbox.com/u/2291825/COM530_images/expand.png") no-repeat;
+background-position: right center;
+background-color: #F3F3F3;
 }
 
 .resume ul li {
@@ -289,4 +327,4 @@ color: #9999FF; cursor: pointer; background-color:#CCCCCC;
 	list-style-type: none;
 	}
 
-/* resume-specific CSS ends */
+/* resume-related CSS ends */
