@@ -39,6 +39,12 @@ h4
 	font-style: italic;
 	}
 
+span.file_type {
+	font-size: 60%;
+	border-style: inset;
+	border-width: thin;
+	}
+
 .pf_area {
 	font-weight: bold;
 	border-bottom: solid;

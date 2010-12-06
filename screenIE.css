@@ -1,27 +1,9 @@
 /*specific for IE version 7 and lower*/
 
-#nav_bar
-{position:absolute;}
+#vertical_bar {
+	position: absolute;
+	top: 150px;
+	right: 110px;
+	}
 
-#nav_bar ul#links
-{
-position: relative; 
-top: 5px; 
-border-style:none; 
-padding:0px 2px;
-text-align:right;
-background-color:#CCCCFF;
-}
-
-
-
-div#content ul#portfolio_index li
-{
-margin: 10px;
-height: 10px;
-width: 260px; 
-}
-
-ul#portfolio_index li:hover
-{background-color: #B0E2FF;}
 
