@@ -1,4 +1,5 @@
 $(document).ready(function() { 
+	$('h3').siblings('*').slideUp(300).delay(900).fadeIn(1200);
 	$('h3').addClass('hasjs');
 	$('h3').click(function() {
 		  $(this).siblings('*').toggle();

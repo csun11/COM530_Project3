@@ -12,19 +12,17 @@ ul.accessibility
 
 #header
 { 
-    color: #221111;
     font-family: 'Eras Medium ITC','Arial',sans-serif;
     font-size: 36px;
     font-weight: normal;
-    height: 90px;
-    padding-left: 10px;
-    padding-top: 30px;
+    height: 110px;
+    padding: 30px 30px 0px 10px;
     text-align: left;
 	background: url("http://dl.dropbox.com/u/2291825/COM530_images/header.png") no-repeat bottom;
 }
 
 #header a {
-    color: #223333;
+    color: #221111;
     padding: 10px;
     text-decoration: none;
 }
@@ -42,7 +40,7 @@ ul.accessibility
 
 #sub_header
 {
-	color: #666666;
+	color: #221111;
 	text-align: right; 
 	float: right;
 	padding-top: 15px;
@@ -67,6 +65,11 @@ position: relative;
 bottom: 10px;
 }
 
+span.file_type {
+	font-size: 60%;
+	border-style: inset;
+	border-width: thin;
+	}
 
 #footer {
     background: url("http://dl.dropbox.com/u/2291825/COM530_images/footer.png") repeat-y center;
@@ -90,7 +93,7 @@ bottom: 10px;
 /*begin styling the navigation bar*/
 div#nav {
 	position: absolute;
-	top: 90px;
+	top: 105px;
 	right: 140px;
 }
 
@@ -120,7 +123,7 @@ color: white;
 #vertical_bar {
 	position: fixed;
 	top: 150px;
-	left: 900px;
+	right: 110px;
 	}
 
 #vertical_bar li {
@@ -228,6 +231,7 @@ border-color: #CCCCCC;
 
 .pf_quote {
 	font-style: italic;
+	color: #221111;
 	}
 
 ul#portfolio_index li
@@ -311,9 +315,14 @@ font-size: 18px; text-align: center; line-height: 200%;
 	margin: 10px;
 	}
 
+.hide {
+	display: none;
+	}
+
 h3.hasjs:hover
 {
 cursor: pointer; 
+line-height: 200%;
 background: url("http://dl.dropbox.com/u/2291825/COM530_images/expand.png") no-repeat;
 background-position: right center;
 background-color: #F3F3F3;
