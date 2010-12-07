@@ -287,7 +287,6 @@ border-color: #CCCCCC;}
 
 ul#portfolio_index li.hasjs p.pf_quote:hover
 {
-color: white; 
 cursor: pointer; 
 background: url("http://dl.dropbox.com/u/2291825/COM530_images/expand.png") no-repeat;
 background-position: right center;
