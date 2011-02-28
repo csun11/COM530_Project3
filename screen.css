@@ -121,7 +121,7 @@ color: white;
 }
 
 #vertical_bar {
-	position: fixed;
+	position: absolute;
 	top: 150px;
 	right: 110px;
 	}
@@ -231,7 +231,7 @@ border-color: #CCCCCC;
 
 .pf_quote {
 	font-style: italic;
-	color: #221111;
+
 	}
 
 ul#portfolio_index li
