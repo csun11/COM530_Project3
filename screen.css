@@ -182,7 +182,7 @@ list-style-type: none;
 }
 
 ul.has_bullet li {
-	list-style-type: disc;
+	list-style-type: square;
 	margin-left: 50px;
 	}
 
@@ -277,14 +277,9 @@ ul#portfolio_index li ul li {
 	margin: 15px 0px;
 	}
 	
-ul#portfolio_index li.hasjs p:hover {
-	cursor: pointer;}
 
-ul#portfolio_index li.hasjs .pf_description
-{display: none;
-}
 
-.pf_entry
+.entry
 { 
 margin-top: 30px; 
 border-top-style: solid; 

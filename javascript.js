@@ -4,17 +4,12 @@
 
 $(document).ready(function() { 
 
-/* trying to create click-toggling effects on portfolio page; however it does not work well now.
-	$('ul#portfolio_index li').addClass('hasjs');
-	$('ul#portfolio_index p').click(function(){
-			 $(this).siblings('.pf_description').animate({
-				width: ['toggle', 'swing'],
-				height: ['toggle', 'swing'],
-				}, 
-				100, 'linear');
+/* creating click-toggling effects on portfolio page 
+	$('ul#portfolio_index h2').addClass('hasjs');
+	$('ul#portfolio_index h2').click(function(){
+			 $(this).siblings('*').toggle();
 		});  
 */
-
 
 //adding nudging effects for the "See more..." links.
 	$("a.seemore").hover(function(){
