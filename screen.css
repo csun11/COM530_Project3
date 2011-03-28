@@ -149,6 +149,10 @@ color: white;
 
 /*styling the normal text and global elements*/
 
+p {
+	text-indent: 15px;
+	}
+
 strong
 {	font-style:italic; 
 	line-height: 200%; 
@@ -218,6 +222,8 @@ h2 a, h3 a, h4 a {
 
 /* portfolio-specific CSS begins */
 
+
+
 img
 { 
 border: inset;
@@ -276,11 +282,7 @@ ul#portfolio_index li.hasjs .pf_description
 
 .pf_entry
 { 
-text-decoration: none;
-font-size: 18px;
-font-family: Arial; 
-font-weight: bold; 
-line-height: 150%;
+margin-top: 30px; 
 border-top-style: solid; 
 display: block;
 border-color: #CCCCCC;}
@@ -291,6 +293,11 @@ cursor: pointer;
 background: url("http://dl.dropbox.com/u/2291825/COM530_images/expand.png") no-repeat;
 background-position: right center;
 background-color: #F3F3F3;
+}
+
+.pfdate {
+	font-style: italic;
+	font-size: 12px; 
 }
 
 /* portfolio-specific CSS ends */
