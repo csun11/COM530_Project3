@@ -189,6 +189,9 @@ ul.has_bullet li {
 h2
 {
 font-size: 20px;
+margin-top: 20px;
+border-top: solid;
+border-width: thin;
 }
 
 h3
@@ -223,25 +226,11 @@ h2 a, h3 a, h4 a {
 
 /* portfolio-specific CSS begins */
 
-img
-{ 
-border: inset;
-border-color: #CCCCCC;
-}
-
 
 .seemore {
 	font-style: italic;
 
 	}
-
-ul#portfolio_index li
-{
-border-top-style: solid; 
-border-width: thin;
-border-color: #CCCCCC;
-margin: 10px 0px;
-}
 
 ul#portfolio_index li a {
 	font-weight: bold;
@@ -249,15 +238,8 @@ ul#portfolio_index li a {
 	}
 
 
-ul#portfolio_index img
-{
- margin-top: 20px;
- width: 220px;
- height: 135px;
-}
-
 ul#portfolio_index li ul li {	
-	background-color: #F3F3E1;
+	
 	border: none;
 	list-style-type: disc;
 	font-size: 12px;
@@ -265,6 +247,19 @@ ul#portfolio_index li ul li {
 	height: 90px;
 	float: left;
 	margin: 15px 50px 0px 15px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#F3F3E1), to(#CCCCCC));
+	background: -moz-linear-gradient(top,  #F3F3E1,  #CCCCCC);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F3F3E1', endColorstr='#CCCCCC');
+
+	-moz-box-shadow: 10px 10px 5px #CCCCE3;
+	-webkit-box-shadow: 10px 10px 5px #CCCCE3;
+	box-shadow: 10px 10px 5px #CCCCE3;
+	
 	}
 
 .pf_description {
@@ -272,19 +267,26 @@ ul#portfolio_index li ul li {
 	position: relative;
 	left: 60px;
 	}
-	
-# portfolio_index li {
-	margin: 15px 0px;
+
+.pf_entry a img { 
+	margin: 10px;
+	border: solid;
+	border-width: thick;
+	border-color: #859CDB; 
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 10px 10px 5px #CCCCE3;
+	-webkit-box-shadow: 10px 10px 5px #CCCCE3;
+	box-shadow: 10px 10px 5px #CCCCE3;
 	}
 	
-
-
-.entry
-{ 
-margin-top: 30px; 
-border-top-style: solid; 
-display: block;
-border-color: #CCCCCC;}
+.pf_entry a:hover img {
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	}
 
 ul#portfolio_index li.hasjs p.seemore:hover
 {
