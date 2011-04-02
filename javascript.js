@@ -4,6 +4,7 @@
 
 $(document).ready(function() { 
 
+
 /* creating click-toggling effects on portfolio page 
 	$('ul#portfolio_index h2').addClass('hasjs');
 	$('ul#portfolio_index h2').click(function(){
@@ -11,7 +12,7 @@ $(document).ready(function() {
 		});  
 */
 
-//adding nudging effects for the "See more..." links.
+//adding nudging effects for the "See more..." links
 	$("a.seemore").hover(function(){
         $(this).stop().animate({marginLeft : "20px"},100,"swing");},
 			function(){

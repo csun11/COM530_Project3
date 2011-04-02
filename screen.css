@@ -90,6 +90,10 @@ span.dl a:hover {
 	color: white;
 	}
 	
+.notation {
+	font-size: 80%;
+	}
+
 #footer {
     background: url("http://dl.dropbox.com/u/2291825/COM530_images/footer.png") repeat-y center;
     font-size: 12px;
@@ -321,6 +325,7 @@ background-color: #F3F3F3;
 
 .pfdate {
 	font-style: italic;
+	font-weight: bold;
 	font-size: 12px; 
 }
 
