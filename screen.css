@@ -3,7 +3,8 @@
 	width: 999px;
 	background: url("http://dl.dropbox.com/u/2291825/COM530_images/bg.png") repeat-y;
 	color: #444444;
-    font-family: 'Georgia';
+	font-size: 14px;
+    font-family: Georgia,"Nimbus Roman No9 L",serif;
 	line-height: 150%;
 } 
 
@@ -67,11 +68,28 @@ bottom: 10px;
 }
 
 span.file_type {
-	font-size: 60%;
+	font-size: 80%;
 	border-style: inset;
 	border-width: thin;
 	}
 
+span.dl {
+	float: right;
+	background-color: #CCCCCC;
+	}
+
+span.dl a{
+	margin: 5px;
+	border-style: none dotted;
+	border-width: thin;
+	border-color: #A52A2A;
+	}
+
+span.dl a:hover {
+	background-color: #A52A2A;
+	color: white;
+	}
+	
 #footer {
     background: url("http://dl.dropbox.com/u/2291825/COM530_images/footer.png") repeat-y center;
     font-size: 12px;
@@ -157,9 +175,8 @@ p {
 
 strong
 {	font-style:italic; 
-	line-height: 200%; 
 	font-weight: bold;
-	font-size: 14px;}
+	font-size: 12px;}
 
 a {
 	text-decoration: none;
@@ -187,10 +204,14 @@ ul.has_bullet li {
 	margin-left: 50px;
 	}
 
+h1 {
+	margin: 10px;
+	}
+
 h2
 {
-font-size: 20px;
-margin-top: 20px;
+font-size: 18px;
+margin-top: 18px;
 margin-bottom: 10px;
 border-top: solid;
 border-width: thin;
@@ -198,7 +219,7 @@ border-width: thin;
 
 h3
 { text-transform: uppercase; 
-  line-height:150%;
+  margin-top: 16px;
   font-size: 16px;
   border-bottom: solid;
   border-width: thin;
@@ -207,8 +228,8 @@ h3
 
 h4
 {
-font-size:16px;
-line-height:150%
+font-size:14px;
+margin-top: 14px;
 }
 
 h2, h3, h4
@@ -352,13 +373,17 @@ color: white;
 /* resume-related CSS begins */
 p#name
 {
-font-size: 22px; text-align: center; line-height: 200%;
+font-size: 20px; text-align: center; line-height: 200%;
 }
 
-address
+p.contactinfo
 {
-font-size: 18px; text-align: center; line-height: 200%;
+font-size: 16px; text-align: center; line-height: 200%;
 }
+
+p.contactinfo span{
+	margin: 16px;
+	}
 
 #content div {
 	margin: 0px 10px 10px 10px;
