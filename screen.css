@@ -76,6 +76,18 @@ span.file_type {
 span.dl {
 	float: right;
 	background-color: #CCCCCC;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	background: -webkit-gradient(linear, left top, left bottom, from(#F3F3E1), to(#CCCCCC));
+	background: -moz-linear-gradient(top,  #F3F3E1,  #CCCCCC);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F3F3E1', endColorstr='#CCCCCC');
+
+	-moz-box-shadow: 5px 5px 1px #CCCCE3;
+	-webkit-box-shadow: 10px 10px 5px #CCCCE3;
+	box-shadow: 10px 10px 5px #CCCCE3;
+	
 	}
 
 span.dl a{
